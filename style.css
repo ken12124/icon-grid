@@ -14,16 +14,3 @@ svg:hover path{
 	
     fill: green;
 
-
-a:link {
-  fill: blue;
-}
-a:visited path{
-  fill:purple;
-}
-a:hover path{
-  fill:green;
-}
-a:active path{
-  fill: red;
-}
