@@ -6,6 +6,24 @@
 
 .grid{
 	display:grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 2fr 2fr 2fr;
 		grid-gap: 1rem;
+}
+
+svg:hover path{
+	
+    fill: green;
+
+
+a:link {
+  fill: blue;
+}
+a:visited path{
+  fill:purple;
+}
+a:hover path{
+  fill:green;
+}
+a:active path{
+  fill: red;
 }
